@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MELBET Operations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background:rgb(243, 245, 111);
+      color: #333;
+    }
+
+    /* Logo Styling */
+    .logo span {
+      font-weight: bold;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+    }
+    .mel { color: #ffcc00; }
+    .bet { color: #000; }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+      transition: color 0.3s ease-in-out;
+    }
+    
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    /* Team Card */
+    .card {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #ffcc00;
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="mel">MEL</span><span class="bet">BET</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="About us.html">About</a>
+      <a href="Contact Us.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto p-6">
+    <section class="text-center">
+      <h1 class="text-4xl font-bold mt-6">Meet Our Team</h1>
+      <p class="text-lg text-gray-600 mt-2">Get to know the individuals behind KANGAY LUX, ensuring smooth operations and excellent user experience.</p>
+    </section>
+
+    <h2 class="text-3xl font-semibold text-center mt-8">Members of KANGAY LUX</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+      
+      <div class="card">
+        <img src="Ceo.jpg" alt="Momoh Kamara">
+        <h2>Momoh Kamara</h2>
+        <p>CEO and Founder</p>
+      </div>
+
+      <div class="card">
+        <img src="Head operations.jpg" alt="Musa Turay">
+        <h2>Musa Turay</h2>
+        <p>Head of Operations</p>
+      </div>
+
+      <div class="card">
+        <img src="Sectary.jpg" alt="Mohamed Sesay">
+        <h2>Mohamed Sesay</h2>
+        <p>Secretary</p>
+        <p class="text-sm text-gray-400">Manages finances and administration</p>
+      </div>
+
+      <div class="card">
+        <img src="gir.jpg" alt="Ramandhan Dumbuya">
+        <h2>Ramandhan Dumbuya</h2>
+        <p>Technical Manager</p>
+        <p class="text-sm text-gray-400">Provides technical support for the app</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MELBET Guide. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
